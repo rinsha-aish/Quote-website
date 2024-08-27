@@ -8,7 +8,9 @@
 }
 
 body {
-  background: #bbc6fa;
+  background: linear-gradient(135deg, #2c3e50, #4a6fa5, #a0c4f8);
+  height: 100vh;
+  margin: 0;
 }
 
 .quote-box {
@@ -88,6 +90,10 @@ body {
   justify-content: center;
   margin: 5px;
   cursor: pointer;
+}
+
+.quote-box button:hover {
+  background: #04407b; /
 }
 
 .quote-box button img {
